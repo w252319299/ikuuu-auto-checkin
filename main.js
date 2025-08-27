@@ -120,6 +120,12 @@ async function main() {
     const accountName = accounts[index].name;
 
     const isSuccess = result.status === "fulfilled";
+
+    if (!isSuccess) {
+      console.error("❌" + result.reason.message);
+      process.exit(1);
+    }
+
     const icon = isSuccess ? "✅" : "❌";
     const message = isSuccess ? result.value : result.reason.message;
 
