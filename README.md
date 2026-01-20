@@ -23,7 +23,7 @@
   ]
   ```
 
-- **HOST**: iKuuu 的域名，不设置时默认为 `ikuuu.one`，iKuuu 更改域名时必须同步修改。iKuuu 经常更换域名，需要随时注意修改。
+- **HOST**: iKuuu 的域名，不设置时默认为 `ikuuu.de`，iKuuu 更改域名时必须同步修改。iKuuu 经常更换域名，需要随时注意修改。
 - **TELEGRAM_TOKEN**: （可选）Telegram 通知的 Bot Token。
 - **TELEGRAM_TO**: （可选）Telegram 通知的 Chat ID。
 
@@ -33,7 +33,7 @@
 2. 在 fork 后的仓库中启用 Actions。
 3. 配置仓库变量。
 
-详细文档: https://ewigl.github.io/notes/posts/programming/github-actions/
+详细文档: https://ewigl.github.io/projects/github-actions-tasks/
 
 ### 注意事项
 
